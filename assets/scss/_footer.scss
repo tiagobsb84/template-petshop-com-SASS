@@ -1,13 +1,16 @@
+/* Este trecho de estilo se refere 
+ao rodapé do nosso blog*/
 .footer {
   text-align: center;
   padding: 20px 0;
   font-family: Arial, Helvetica, sans-serif;
+  // Este trecho de estilo posiciona o footer na parte de baixo da nossa tela
   position: relative;
   bottom: 0;
   left: 50%;
-  transform: translatex(-50%);
+  transform: translateX(-50%);
 
-  &__img {
+  &__logo {
     max-width: 100px;
   }
 
